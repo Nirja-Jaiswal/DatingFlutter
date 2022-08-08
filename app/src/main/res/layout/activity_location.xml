@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".LocationActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary">
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Location"
+                android:textSize="30dp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/white"
+                android:layout_gravity="center">
+
+            </TextView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/t2"
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+                android:textSize="20dp"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"/>
+
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Current Location"
+                android:textColor="@color/colorPrimary"
+                android:textSize="16dp"/>
+
+            <EditText
+                android:id="@+id/edtmail"
+                android:layout_margin="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="@string/add"
+                android:textSize="16dp"
+                android:padding="10dp"
+                android:drawableRight="@drawable/ic_baseline_insert_emoticon_24"
+                android:background="@drawable/bbackwhite"/>
+
+
+            <EditText
+                android:layout_margin="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="Search New Location"
+                android:textSize="16dp"
+                android:padding="10dp"
+                android:drawableRight="@drawable/ic_baseline_insert_emoticon_24"
+                android:background="@drawable/bbackwhite"/>
+
+            <TextView
+                android:id="@+id/txt_resend"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:layout_margin="30dp"
+                android:text="Continue"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_gradient"
+                android:layout_width="200dp"
+                android:layout_height="50dp"/>
+
+
+
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</LinearLayout>

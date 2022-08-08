@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">DatingFlutter</string>
+    <string name="Submit">Submit</string>
+    <string name="t1">Please Enter your valid phone numver.We will send you a 4-digit code to verify</string>
+    <string name="like">Likes, Interests</string>
+    <string name="text2"><![CDATA[Share your likes & passion with others]]></string>
+    <string name="Cooking">Cooking</string>
+    <string name="Art"><![CDATA[Art & Crafts]]></string>
+    <string name="t2">Let the app location you to provide best searched results around you</string>
+    <string name="add">Kenwood Place, Florida,US..</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

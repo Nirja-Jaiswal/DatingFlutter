@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/main_gradint"
+    tools:context=".LikesInterests">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary">
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/like"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="35dp"/>
+    <TextView
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text2"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="18dp"/>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_margin="20dp"
+            android:text="Photography"
+            android:background="@drawable/bbackwhite"
+            android:layout_width="match_parent"
+            android:drawableLeft="@drawable/ic_baseline_insert_emoticon_24"
+            android:layout_height="50dp"/>
+
+        <TextView
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_margin="20dp"
+            android:text="@string/Cooking"
+            android:background="@drawable/bbackwhite"
+            android:layout_width="match_parent"
+            android:drawableLeft="@drawable/ic_baseline_insert_emoticon_24"
+            android:layout_height="50dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_margin="20dp"
+            android:text="Video Game"
+            android:background="@drawable/bbackwhite"
+            android:layout_width="match_parent"
+            android:drawableLeft="@drawable/ic_baseline_insert_emoticon_24"
+            android:layout_height="50dp"/>
+
+        <TextView
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_margin="20dp"
+            android:text="Music"
+            android:background="@drawable/bbackwhite"
+            android:layout_width="match_parent"
+            android:drawableLeft="@drawable/ic_baseline_insert_emoticon_24"
+            android:layout_height="50dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_margin="20dp"
+            android:text="Travelling"
+            android:background="@drawable/bbackwhite"
+            android:layout_width="match_parent"
+            android:drawableLeft="@drawable/ic_baseline_insert_emoticon_24"
+            android:layout_height="50dp"/>
+
+        <TextView
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_margin="20dp"
+            android:text="Shopping"
+            android:background="@drawable/bbackwhite"
+            android:layout_width="match_parent"
+            android:drawableLeft="@drawable/ic_baseline_insert_emoticon_24"
+            android:layout_height="50dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_margin="20dp"
+            android:text="Speeches"
+            android:background="@drawable/bbackwhite"
+            android:layout_width="match_parent"
+            android:drawableLeft="@drawable/ic_baseline_insert_emoticon_24"
+            android:layout_height="50dp"/>
+
+        <TextView
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_margin="20dp"
+            android:text="@string/Art"
+            android:background="@drawable/bbackwhite"
+            android:layout_width="match_parent"
+            android:drawableLeft="@drawable/ic_baseline_insert_emoticon_24"
+            android:layout_height="50dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_margin="20dp"
+            android:text="Swimming"
+            android:background="@drawable/bbackwhite"
+            android:layout_width="match_parent"
+            android:drawableLeft="@drawable/ic_baseline_insert_emoticon_24"
+            android:layout_height="50dp"/>
+
+        <TextView
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_margin="20dp"
+            android:text="Drinking"
+            android:background="@drawable/bbackwhite"
+            android:layout_width="match_parent"
+            android:drawableLeft="@drawable/ic_baseline_insert_emoticon_24"
+            android:layout_height="50dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_margin="20dp"
+            android:text="Exterme Sports"
+            android:background="@drawable/bbackwhite"
+            android:layout_width="match_parent"
+            android:drawableLeft="@drawable/ic_baseline_insert_emoticon_24"
+            android:layout_height="50dp"/>
+
+        <TextView
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:layout_margin="20dp"
+            android:text="Fitness"
+            android:background="@drawable/bbackwhite"
+            android:layout_width="match_parent"
+            android:drawableLeft="@drawable/ic_baseline_insert_emoticon_24"
+            android:layout_height="50dp"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_margin="10dp"
+        android:text="@string/Submit"
+        android:textSize="16dp"
+        android:id="@+id/txt_resend"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:background="@drawable/btn_gradient"
+        android:textStyle="bold"
+        android:gravity="center"/>
+        </LinearLayout>
+
+
+
+</RelativeLayout>
+</LinearLayout>
